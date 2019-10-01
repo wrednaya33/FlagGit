@@ -7,7 +7,7 @@ scr.fill(pygame.Color('green'))
 
 def draw():
     pygame.draw.rect(scr, pygame.Color('black'), [(10, 10), (20, 260)], 0)
-    pygame.draw.rect(scr, pygame.Color('white'), [(30, 10), (170, 60)], 0)
+    pygame.draw.rect(scr, pygame.Color('white'), [(30, 70), (170, 60)], 0)
 
 draw()
 
